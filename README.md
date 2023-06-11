@@ -40,11 +40,14 @@ user = youruser
 password = userpassword
 ```
 ## How to run
-For debugging, you can directly run the tracker.py script. Make sure to include 
-
-Crontab command:
+For debugging, you can directly run the tracker.py script with the following. Make sure to include --config and point to your config.ini file.
+```bash
+python3 ./tracker.py --config="/path/to/config.ini"
+```
+I use a cronjob to run the script every minute. That's done with the following crontab -e entry. Make sure to setup the cronjob as root else our script won't have access to GPIO.
+```cronjob
 * * * * * cd /home/steffan/TemperatureTracker && /usr/bin/python3.11 ./tracker.py --config="./config.ini" 2>&1
-
+```
 <br><br>
 <p align="center"><sub><b>made by steffan</b></sub></p>
 <p align="center">❤️</p>
