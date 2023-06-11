@@ -7,6 +7,9 @@ DB setup<br>
 Example data
 ![image](https://github.com/steffandrosinos/TemperatureTracker/assets/39098140/a45c617f-b030-4162-a505-4f915ee8927b)
 
+Config file
+![image](https://github.com/steffandrosinos/TemperatureTracker/assets/39098140/80e38d37-328e-4edc-b44e-156aa74d7084)
+
 
 Crontab command:
 * * * * * cd /home/steffan/TemperatureTracker && /usr/bin/python3.11 ./tracker.py --config="./config.ini" 2>&1
