@@ -1,4 +1,4 @@
-# tracker.py
+# dht22.py
 # Helper class that fetches data from our dht22 sensor
 # uses adafruit_dht ❤️ https://github.com/adafruit/Adafruit_CircuitPython_DHT
 
