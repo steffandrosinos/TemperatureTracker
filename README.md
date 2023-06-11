@@ -1,3 +1,4 @@
+<!-- Made badly by steffan ❤️ -->
 # <p align="center">Raspberry Pi Python Temperature Tracker</p>
 <img src="https://github.com/steffandrosinos/TemperatureTracker/assets/39098140/0350600d-5abe-44b0-a0d6-502efc81cc45" align="right"
      alt="Example MySQL data" width="500" height="220">
@@ -21,14 +22,29 @@ CREATE TABLE `newtable` (
   `humidity` VARCHAR(8) NOT NULL
 );
 ```
-
-Example data
-![image](https://github.com/steffandrosinos/TemperatureTracker/assets/39098140/a45c617f-b030-4162-a505-4f915ee8927b)
-
-Config file
-![image](https://github.com/steffandrosinos/TemperatureTracker/assets/39098140/80e38d37-328e-4edc-b44e-156aa74d7084)
-
+## Config file
+<img src="https://github.com/steffandrosinos/TemperatureTracker/assets/39098140/cb59b3cf-54a2-4327-8e68-fe980cebc4c6" align="right"
+     alt="Example MySQL data" width="304" height="220">
+The script loads up a config file that has useful variables that includes your mysql server destination, database and table name and the account user for login. The following variables are defined in the config:
+ - **host**     - The hostname/address of your MySQL server
+ - **database** - The database that your table resides in
+ - **table**    - The table name that you want to store your data
+ - **user**     - Login account for MySQL, should have access to the above database + table
+ - **password** - The password for the login account
+```ini
+[Database]
+host = localhost
+database = yourdatabase
+table = yourtable
+user = youruser
+password = userpassword
+```
+## How to run
+For debugging, you can directly run the tracker.py script. Make sure to include 
 
 Crontab command:
 * * * * * cd /home/steffan/TemperatureTracker && /usr/bin/python3.11 ./tracker.py --config="./config.ini" 2>&1
 
+<br><br>
+<p align="center"><sub><b>made by steffan</b></sub></p>
+<p align="center">❤️</p>
