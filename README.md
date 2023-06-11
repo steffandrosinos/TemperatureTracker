@@ -8,7 +8,7 @@
  - Raspberry Pi
  - dht22 sensor
  - python3
-   - adafruit-python-shell
+   - adafruit-python-shell - https://github.com/adafruit/Adafruit_Python_Shell
    - Adafruit_CircuitPython_DHT - https://github.com/adafruit/Adafruit_CircuitPython_DHT
    - PyMySQL - https://github.com/PyMySQL/PyMySQL
 
