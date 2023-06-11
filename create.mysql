@@ -1,0 +1,6 @@
+CREATE TABLE `newtable` (
+  `dateunix` varchar(64) NOT NULL,
+  `datestr` DATETIME NOT NULL,
+  `temperature` DECIMAL(6,1) NOT NULL,
+  `humidity` VARCHAR(8) NOT NULL
+);
