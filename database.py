@@ -37,7 +37,7 @@ class DB():
         # Inputs:
         #   Temperature (float) - Mandatory
         #   Humidity    (float) - Mandatory
-        # Database tble will take in:
+        # Database table will take in:
         #   "dateunix" varchar(64) [not null]
         #   "datestr" DATETIME [not null]
         #   "temperature" DECIMAL(6,1) [not null]
