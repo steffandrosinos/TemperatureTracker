@@ -25,7 +25,7 @@ CREATE TABLE `newtable` (
 ## Config file
 <img src="https://github.com/steffandrosinos/TemperatureTracker/assets/39098140/cb59b3cf-54a2-4327-8e68-fe980cebc4c6" align="right"
      alt="Example MySQL data" width="304" height="220">
-The script loads up a config file that has useful variables that includes your mysql server destination, database and table name and the account user for login. The following variables are defined in the config:
+The script loads up a config file that has useful variables, the following variables are defined in the config:
  - **host**     - The hostname/address of your MySQL server
  - **database** - The database that your table resides in
  - **table**    - The table name that you want to store your data
