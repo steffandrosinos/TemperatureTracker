@@ -1,9 +1,9 @@
 <!-- Made badly by steffan ❤️ -->
 # <p align="center">Raspberry Pi Python Temperature Tracker</p>
 <img src="https://github.com/steffandrosinos/TemperatureTracker/assets/39098140/0350600d-5abe-44b0-a0d6-502efc81cc45" align="right"
-     alt="Example MySQL data" width="500" height="220">
-<br>Simple Raspberry Pi Temperature tracker for my room. Backend is a python script that stores the temperature from a dht22 sensor in a MySQL database (stores 1,440 mesurements per day). Runs every minute via a cronjob.
-<br>
+     alt="Example MySQL data" width="460" height="200">
+<br><br>Simple Raspberry Pi Temperature tracker for my room. Backend is a python script that stores the temperature from a dht22 sensor in a MySQL database (stores 1,440 mesurements per day). Runs every minute via a cronjob.
+<br><br>
 ## Requirements
  - Raspberry Pi
  - dht22 sensor
